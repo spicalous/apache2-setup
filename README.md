@@ -1,5 +1,10 @@
 # Setting up Digital ocean apache2 webserver on ubuntu 
 
+Install fail2ban if password ssh enabled
+```
+apt install fail2ban
+```
+
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04
 
 Display profiles that apps have registered with `ufw`
